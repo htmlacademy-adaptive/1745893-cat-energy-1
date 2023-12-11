@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Павел Поздняков](https://up.htmlacademy.ru/adaptive-individual/1/user/1745893).
-* Наставник: `Неизвестно`.
+* Наставник: [Андрей Грачёв](https://github.com/andreysgra).
 
 ---
 
