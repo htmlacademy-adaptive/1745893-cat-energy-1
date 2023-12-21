@@ -24,15 +24,83 @@
         </ul>
       </nav>
       <button class="main-header__menu-toggler">
-        <span class="visually-hidden">Открыть меню</span>
+        <span class="visually-hidden">Открыть меню.</span>
       </button>
     </header>
-    <main class="main-container client-survey">
-      <h1 class="page__title client-survey__title">Подбор программы</h1>
-      <p class="client-survey__text">Заполните анкету, и мы подберем программу питания для вашего кота</p>
+    <main class="main-container">
+      <h1 class="page__title main-title">Подбор программы</h1>
+      <section class="client-survey">
+        <h2 class="visually-hidden">Анкета клиента</h2>
+        <p class="client-survey__intro">Заполните анкету, и мы подберем программу питания для вашего кота</p>
       <form class="client-survey__form customer-profile" action="https://echo.htmlacademy.ru/" method="post">
-        <fieldset class=""
+        <fieldset class="customer-profile__group">
+          <legend class="visually-hidden">Данные кота.</legend>
+          <label class="customer-profile__label">
+            Имя:*
+            <input class="customer-profile__input input" type="text" required>
+          </label>
+          <label class="customer-profile__label">
+            Вес (кг):*
+            <input class="customer-profile__input input" type="number" required>
+          </label>
+          <label class="customer-profile__label">
+            Возраст (лет):
+            <input class="customer-profile__input input" type="number">
+          </label>
+        </fieldset>
+        <fieldset  class="customer-profile__group">
+          <legend class="visually-hidden">Предпочитаемая программа.</legend>
+          <label class="customer-profile__label">
+            <input class="visually-hidden" type="radio">
+            Похудение
+          </label>
+          <label class="customer-profile__label">
+            <input class="visually-hidden" type="radio">
+            Набор массы
+          </label>
+          <label class="customer-profile__label">
+            <input class="visually-hidden" type="radio">
+            Не знаю (нужен ваш совет)
+          </label>
+        </fieldset>
+        <fieldset class="customer-profile__group">
+          <legend class="customer-profile__title">Контактные данные (владельца кота)</legend>
+          <label class="customer-profile__label">
+            E-mail:*
+            <input class="customer-profile__input input" type="email" required>
+          </label>
+          <label class="customer-profile__label">
+            Телефон:*
+            <input class="customer-profile__input input" type="tel" required>
+          </label>
+        </fieldset>
+        <div class="customer-profile__group">
+          <p class="customer-profile__title">Комментарий</p>
+          <textarea>Расскажите обо всех повадках кота</textarea>
+        </div>
+        <fieldset class="customer-profile__group">
+          <legend class="customer-profile__title">Дополнительно</legend>
+          <label class="customer-profile__label">
+            <input class="visually-hidden" type="checkbox">
+            Сахарозаменитель
+          </label>
+          <label class="customer-profile__label">
+            <input class="visually-hidden" type="checkbox">
+            Питьевая вода
+          </label>
+          <label class="customer-profile__label">
+            <input class="visually-hidden" type="checkbox">
+            Молоко
+          </label>
+          <label class="customer-profile__label">
+            <input class="visually-hidden" type="checkbox">
+            Витамины
+          </label>
+        </fieldset>
+        <button class="button button--primary" type="submit">Отправить заявку</button>
+        <p class="customer-profile__footnote">* — Обязательные поля</p>
       </form>
+      </section>
     </main>
     <footer class="main-footer">
       <section class="main-footer__contacts contacts">
