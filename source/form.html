@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Подбор программы питания для вашего кота</title>
+  </head>
+  <body class="page__body">
+    <header class="main-header">
+      <a class="main-header__logo" href="./index.html">
+        <img src="./img/content/common/header-logo-pic.svg" width="33" height="38" alt="Логотип интернет-магазина Кэт энерджи.">
+        <img src="./img/content/common/header-logo-text.svg" width="101" height="18" alt="CAT ENERGY.">
+      </a>
+      <nav class="main-header__nav main-nav">
+        <button class="main-nav__toggle nav-menu-toggle" type="button">
+          <span class="visually-hidden">Открыть меню.</span>
+        </button>
+        <ul class="main-nav__list site-navigation">
+          <li class="site-navigation__item">
+            <a class="site-navigation__link" href="./index.html">Главная</a>
+          </li>
+          <li class="site-navigation__item">
+            <a class="site-navigation__link" href="./catalog.html">Каталог продукции</a>
+          </li>
+          <li class="site-navigation__item">
+            <a class="site-navigation__link">Подбор программы</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-container">
+      <h1 class="page__title main-title">Подбор программы</h1>
+      <section class="client-survey">
+        <h2 class="visually-hidden">Анкета клиента.</h2>
+        <p class="client-survey__intro">Заполните анкету, и мы подберем программу питания для вашего кота</p>
+        <form class="client-survey__form customer-profile" action="https://echo.htmlacademy.ru/"   method="post">
+          <fieldset class="customer-profile__group">
+            <legend class="visually-hidden">Данные кота.</legend>
+            <label class="customer-profile__label">
+              Имя:*
+              <input class="customer-profile__input input" type="text" name="cat-name"   placeholder="Барсик" required>
+            </label>
+            <label class="customer-profile__label">
+              Вес (кг):*
+              <input class="customer-profile__input input" type="number" name="cat-weight"   placeholder="7" required>
+            </label>
+            <label class="customer-profile__label">
+              Возраст (лет):
+              <input class="customer-profile__input input" type="number" name="cat-age"   placeholder="7">
+            </label>
+          </fieldset>
+          <fieldset  class="customer-profile__group">
+            <legend class="visually-hidden">Предпочитаемая программа.</legend>
+            <label class="customer-profile__label">
+              <input class="visually-hidden" type="radio" name="preferred-program" value="weight-loss"   checked>
+              Похудение
+            </label>
+            <label class="customer-profile__label">
+              <input class="visually-hidden" type="radio" name="preferred-program" value="weight-gain">
+              Набор массы
+            </label>
+            <label class="customer-profile__label">
+              <input class="visually-hidden" type="radio" name="preferred-program" value="not-decide">
+              Не знаю (нужен ваш совет)
+            </label>
+          </fieldset>
+          <fieldset class="customer-profile__group">
+            <legend class="customer-profile__title">Контактные данные (владельца кота)</legend>
+            <label class="customer-profile__label">
+              E-mail:*
+              <input class="customer-profile__input input" type="email" name="client-email"   placeholder="kuklachev@gmail.com" required>
+            </label>
+            <label class="customer-profile__label">
+              Телефон:*
+              <input class="customer-profile__input input" type="tel" name="client-tel" placeholder="8   (960) 900-60-90" required>
+            </label>
+          </fieldset>
+          <div class="customer-profile__group">
+            <label class="customer-profile__title" for="cat-habits-comment">Комментарий</label>
+            <textarea class="customer-profile__input input" name="cat-habits"   id="cat-habits-comment" placeholder="Расскажите обо всех повадках кота"></textarea>
+          </div>
+          <fieldset class="customer-profile__group">
+            <legend class="customer-profile__title">Дополнительно</legend>
+            <label class="customer-profile__label">
+              <input class="visually-hidden" type="checkbox" name="sweetener" checked>
+              Сахарозаменитель
+            </label>
+            <label class="customer-profile__label">
+              <input class="visually-hidden" type="checkbox" name="water">
+              Питьевая вода
+            </label>
+            <label class="customer-profile__label">
+              <input class="visually-hidden" type="checkbox" name="milk">
+              Молоко
+            </label>
+            <label class="customer-profile__label">
+              <input class="visually-hidden" type="checkbox" name="vitamins">
+              Витамины
+            </label>
+          </fieldset>
+          <button class="customer-profile__submit button button--primary" type="submit">Отправить   заявку</button>
+          <p class="customer-profile__footnote">* — Обязательные поля</p>
+        </form>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <section class="main-footer__contacts contacts">
+        <h2 class="visually-hidden">Наши контакты.</h2>
+        <div class="contacts__content-wrapper">
+          <b class="contacts__invitation">Приглашаем к сотрудничеству дилеров!</b>
+          <address class="contacts__address">ул. Большая
+            Конюшенная, д. 19/8
+            Санкт-Петербург</address>
+        </div>
+        <div class="contacts__map">
+          <img src="./img/content/common/location.png" width="320" height="362" alt="Наше местоположение: Санкт-Петербург, ул. Большая Конюшенная, д. 19/8.">
+        </div>
+      </section>
+      <div class="main-footer__inner">
+        <img src="./img/content/common/footer-logo.svg" width="128" height="24" alt="CAT ENERGY.">
+        <ul class="main-footer__social social">
+          <li class="social__item">
+            <a class="social__link" href="#" target="_blank">
+              <span class="visually-hidden">Наш аккаунт Vkontakte.</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#" target="_blank">
+              <span class="visually-hidden">Наш аккаунт на YouTube.</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#" target="_blank">
+              <span class="visually-hidden">Наш аккаунт в Telegram.</span>
+            </a>
+          </li>
+        </ul>
+        <a class="main-footer__academy-logo academy-logo" href="https://htmlacademy.ru/intensive/adaptive" target="_blank">
+          HTML Academy
+          <svg class="academy-logo__icon-box" width="27" height="34" viewBox="0 0 27 34" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="HTML-Academy: онлайн‑курс
+          HTML и CSS «Адаптивная вёрстка и автоматизация».">
+            <path class="academy-logo__icon" d="M13.6426 0.0157537L13.5 0L0 1.40733V26.0129L13.5 34L27 26.0129V1.40733L13.6426 0.0157537ZM25.2344 25.0151L13.5 31.9573L1.76561 25.0151V14.9293L13.4507 21.8451L13.4701 23.0984L5.45351 18.3548L5.44295 19.5801L13.4894 24.3885L13.5088 25.675L5.46408 20.9174L5.45351 22.1427L13.5 26.9511L21.6239 22.1182V20.8929V16.909L25.2432 14.7595L25.2344 25.0151ZM25.2344 13.4519L22.0147 15.3319L20.5325 16.2071L13.4666 12.0201L13.456 13.2454L19.4957 16.818L19.4429 16.8495L19.3126 16.9247L18.4536 17.4166L13.4666 14.4689L13.456 15.6942L17.3921 18.0222L16.4591 18.6314L16.438 18.6436L13.4666 16.902L13.456 18.1273L15.4029 19.2615L13.4155 20.4483L1.7973 13.5762L13.4349 6.61831L25.2344 13.4519ZM25.2344 12.2266L13.4401 5.31075L1.76561 12.2196V2.9897L13.5 1.76442L25.2344 2.9897V12.2266Z" fill="#666666"/>
+          </svg>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
