@@ -1,3 +1,7 @@
+// Общие стили
 @use "./common/fonts.scss";
 @use "./common/redefinition.scss";
+@use "./common/patterns.scss";
+
+// Фичи препроцессора
 @use "./variables.scss";
