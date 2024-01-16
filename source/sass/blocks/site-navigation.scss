@@ -1,0 +1,16 @@
+@use "../variables.scss";
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation__link {
+  display: block; //Задал сразу, чтобы не возвращаться к этой теме
+  padding: 22px;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: variables.$base-strong;
+}

@@ -1,0 +1,20 @@
+@use "../variables.scss";
+
+.button {
+  padding: 10px 20px;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+
+  &--primary {
+    color: variables.$base-weak;
+    background-color: variables.$accent-strong;
+  }
+
+  &--secondary {
+    color: variables.$faint-strong;
+    background-color: variables.$faint-weak;
+  }
+}

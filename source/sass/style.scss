@@ -5,3 +5,10 @@
 
 // Фичи препроцессора
 @use "./variables.scss";
+
+// Блоки
+@use "./blocks/page.scss";
+@use "./blocks/page-header.scss";
+@use "./blocks/site-navigation.scss";
+@use "./blocks/hero.scss";
+@use "./blocks/button.scss";
