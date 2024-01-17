@@ -1,7 +1,7 @@
 @use "../variables.scss";
 
 .page {
-  font-family: "Lato", sans-serif;
+  font-family: variables.$font-stack;
   font-size: 14px;
   line-height: 18px;
   color: variables.$faint-strong;

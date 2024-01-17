@@ -1,12 +1,17 @@
 @use "../variables.scss";
 
 .hero {
-  font-family: "Oswald", sans-serif;
+  font-family: variables.$font-accent;
   text-align: center;
   color: variables.$base-weak;
   background-image: url("../../img/covering-bg/hero-cat.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
+}
+
+.hero__caption {
+  font-size: 36px;
+  line-height: 36px;
 }
 
 .hero__slogan {

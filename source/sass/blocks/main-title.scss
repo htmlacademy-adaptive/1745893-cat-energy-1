@@ -1,0 +1,9 @@
+@use "../variables.scss";
+
+.main-title {
+  font-family: variables.$font-accent;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  color: variables.$base-strong;
+}
