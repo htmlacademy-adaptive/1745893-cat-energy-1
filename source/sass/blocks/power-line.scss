@@ -1,0 +1,23 @@
+@use "../variables.scss";
+
+.power-line {
+  padding: 20px;
+  background-color: variables.$faint-weak;
+}
+
+.power-line__title {
+  font-family: variables.$font-accent;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: variables.$base-strong;
+}
+
+.power-line__link {
+  font-family: variables.$font-accent;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: variables.$base-strong;
+}

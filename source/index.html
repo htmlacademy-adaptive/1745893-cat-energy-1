@@ -29,14 +29,16 @@
       </nav>
     </header>
     <main class="page__main page-main">
-      <section class="hero">
-        <h1 class="visually-hidden">Интернет-магазин Кэт Энерджи: функциональное питание для котов.</h1>
-        <p class="hero__caption">Функциональное питание для котов</p>
-        <p class="hero__slogan">Занялся собой? Займись котом!</p>
-        <img class="hero__image" src="./img/content/index/hero-product.png" width="280" height="270" alt="Вашему коту понравится Cat Energy Pro со вкусом курицы.">
-        <a class="hero__link button button--primary" href="./form.html">Подобрать программу</a>
+      <section class="promo">
+        <div class="promo__inner container">
+          <h1 class="visually-hidden">Интернет-магазин Кэт Энерджи: функциональное питание для котов.</h1>
+          <p class="promo__caption">Функциональное питание для котов</p>
+          <p class="promo__slogan">Занялся собой? Займись котом!</p>
+          <img class="promo__image" src="./img/content/index/promo-product-shown.png" width="280" height="270" alt="Вашему коту понравится Cat Energy Pro со вкусом курицы.">
+          <a class="promo__link button button--primary" href="./form.html">Подобрать программу</a>
+        </div>
       </section>
-      <section class="power-lines">
+      <section class="power-lines container">
         <h2 class="visually-hidden">Линейки функционального питания от Кэт Энерджи.</h2>
         <ul class="power-lines__list">
           <li class="power-lines__item power-line">
@@ -51,8 +53,8 @@
           </li>
         </ul>
       </section>
-      <section class="features">
-        <h2 class="features__title section-title">Как это работает</h2>
+      <section class="features container">
+        <h2 class="features__title structure-title">Как это работает</h2>
         <ol class="features__list">
           <li class="features__item">Функциональное питание содержит только полезные питательные вещества.</li>
           <li class="features__item">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</li>
@@ -61,34 +63,36 @@
         </ol>
       </section>
       <section class="result">
-        <h2 class="result__title section-title">Живой пример</h2>
-        <p class="result__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
-        <dl class="result__stats metrics-list">
-          <div class="metrics-list__inner-wrapper metric">
-            <dt class="metric__description">снижение веса</dt>
-            <dd class="metric__value">5 кг</dd>
-          </div>
-          <div class="metrics-list__inner-wrapper metric">
-            <dt class="metric__description">затрачено времени</dt>
-            <dd class="metric__value">60 дней</dd>
-          </div>
-          <div class="metrics-list__inner-wrapper metric">
-            <dt class="metric__description">Затраты на питание:</dt>
-            <dd class="metric__value">15 000 руб.</dd>
-          </div>
-        </dl>
-        <div class="result__comparison comparison">
-          <div class="comparison__images-wrapper">
-            <img class="comparison__image" src="./img/content/index/cat-before-losing-weight.png" width="280" height="256" alt="Кот Борис до прохождения программы похудения.">
-            <img class="comparison__image" src="./img/content/index/cat-after-losing-weight.png" width="280" height="256" alt="Кот Борис после прохождения программы похудения.">
-          </div>
-          <div class="comparison__slider">
-            <button class="comparison__slider-control comparison__slider-control--direction-left" type="button">
-              <span class="visually-hidden">Переместить ползунок влево.</span>
-            </button>
-            <button class="comparison__slider-control comparison__slider-control--direction-right" type="button">
-              <span class="visually-hidden">Переместить ползунок вправо.</span>
-            </button>
+        <div class="container">
+          <h2 class="result__title structure-title">Живой пример</h2>
+          <p class="result__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
+          <dl class="result__stats stats">
+            <div class="stats__item core-metric">
+              <dt class="core-metric__description">снижение веса</dt>
+              <dd class="core-metric__value">5 кг</dd>
+            </div>
+            <div class="stats__item core-metric">
+              <dt class="core-metric__description">затрачено времени</dt>
+              <dd class="core-metric__value">60 дней</dd>
+            </div>
+            <div class="stats__item accessory-metric">
+              <dt class="accessory-metric__description">Затраты на питание:</dt>
+              <dd class="accessory-metric__value">15 000 руб.</dd>
+            </div>
+          </dl>
+          <div class="result__comparison comparison">
+            <div class="comparison__images-wrapper">
+              <img class="comparison__image" src="./img/content/index/cat-before-losing-weight.png" width="280" height="256" alt="Кот Борис до прохождения программы похудения.">
+              <img class="comparison__image" src="./img/content/index/cat-after-losing-weight.png" width="280" height="256" alt="Кот Борис после прохождения программы похудения.">
+            </div>
+            <div class="comparison__slider">
+              <button class="comparison__slider-control comparison__slider-control--direction-left" type="button">
+                <span class="visually-hidden">Переместить ползунок влево.</span>
+              </button>
+              <button class="comparison__slider-control comparison__slider-control--direction-right" type="button">
+                <span class="visually-hidden">Переместить ползунок вправо.</span>
+              </button>
+            </div>
           </div>
         </div>
       </section>

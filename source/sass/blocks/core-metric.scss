@@ -1,0 +1,15 @@
+@use "../variables.scss";
+
+.core-metric__description {
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+}
+
+.core-metric__value {
+  font-family: variables.$font-accent;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: variables.$base-strong;
+}

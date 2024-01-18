@@ -1,20 +1,24 @@
 @use "../variables.scss";
 
-.hero {
+.promo {
+  padding-top: 28px;
+  padding-bottom: 10px;
   font-family: variables.$font-accent;
   text-align: center;
   color: variables.$base-weak;
-  background-image: url("../../img/covering-bg/hero-cat.png");
+  background-image: url("../../img/covering-bg/promo-cat.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
 
-.hero__caption {
+.promo__caption {
+  margin: 0;
+  margin-bottom: 25px;
   font-size: 36px;
   line-height: 36px;
 }
 
-.hero__slogan {
+.promo__slogan {
   line-height: 14px;
   text-transform: uppercase;
 }
