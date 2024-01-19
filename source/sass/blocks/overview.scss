@@ -1,0 +1,18 @@
+@use "../variables.scss";
+
+.overview {
+  text-align: center;
+}
+
+.overview__caption {
+  font-family: variables.$font-accent;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.overview__text {
+  font-size: 12px;
+  line-height: 16px;
+}

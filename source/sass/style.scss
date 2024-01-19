@@ -10,6 +10,7 @@
 // Блоки
 @use "./blocks/page.scss";
 @use "./blocks/container.scss";
+@use "./blocks/theme.scss";
 @use "./blocks/structure-title.scss";
 @use "./blocks/button.scss";
 @use "./blocks/page-header.scss";
@@ -19,6 +20,9 @@
 @use "./blocks/power-line.scss";
 @use "./blocks/features.scss";
 @use "./blocks/result.scss";
-@use "./blocks/core-metric.scss";
-@use "./blocks/accessory-metric.scss";
+@use "./blocks/stats.scss";
 @use "./blocks/contacts.scss";
+@use "./blocks/main-product.scss";
+@use "./blocks/overview.scss";
+@use "./blocks/additional-products.scss";
+@use "./blocks/additional-product.scss";
