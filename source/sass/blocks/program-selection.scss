@@ -1,0 +1,7 @@
+@use "./variables.scss";
+
+.program-selection__intro {
+  font-family: variables.$font-accent;
+  text-transform: uppercase;
+  color: variables.$base-strong;
+}
