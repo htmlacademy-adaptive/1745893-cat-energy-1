@@ -10,10 +10,10 @@
 // Блоки
 @use "./blocks/page.scss";
 @use "./blocks/container.scss";
-@use "./blocks/theme.scss";
-@use "./blocks/structure-title.scss";
+@use "./blocks/accent-text.scss";
 @use "./blocks/button.scss";
 @use "./blocks/page-header.scss";
+@use "./blocks/main-nav.scss";
 @use "./blocks/site-navigation.scss";
 @use "./blocks/promo.scss";
 @use "./blocks/power-lines.scss";
@@ -21,10 +21,11 @@
 @use "./blocks/features.scss";
 @use "./blocks/result.scss";
 @use "./blocks/stats.scss";
-@use "./blocks/contacts.scss";
+@use "./blocks/product.scss";
 @use "./blocks/main-product.scss";
 @use "./blocks/overview.scss";
 @use "./blocks/additional-products.scss";
 @use "./blocks/additional-product.scss";
 @use "./blocks/program-selection.scss";
 @use "./blocks/customer-profile.scss";
+@use "./blocks/contacts.scss";

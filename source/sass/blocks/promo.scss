@@ -1,24 +1,25 @@
 @use "../variables.scss";
 
 .promo {
-  padding-top: 28px;
-  padding-bottom: 10px;
-  font-family: variables.$font-accent;
-  text-align: center;
-  color: variables.$base-weak;
   background-image: url("../../img/covering-bg/promo-cat.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
 
+.promo__inner {
+  padding-top: 28px;
+  padding-bottom: 20px;
+}
+
 .promo__caption {
-  margin: 0;
-  margin-bottom: 25px;
+  margin-top: 0;
   font-size: 36px;
   line-height: 36px;
+  text-align: center;
 }
 
 .promo__slogan {
   line-height: 14px;
+  text-align: center;
   text-transform: uppercase;
 }

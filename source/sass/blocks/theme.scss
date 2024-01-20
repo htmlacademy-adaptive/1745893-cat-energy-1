@@ -1,8 +1,0 @@
-@use "./variables.scss";
-
-.theme {
-  &--accent {
-    color: variables.$base-weak;
-    background-color: variables.$accent-strong;
-  }
-}

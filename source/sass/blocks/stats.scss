@@ -6,20 +6,16 @@
   text-align: center;
 
   &--summary-state {
-    font-family: variables.$font-accent;
     font-size: 14px;
     line-height: 20px;
     text-transform: uppercase;
-    color: variables.$base-strong;
   }
 }
 
 .stats__value {
-  font-family: variables.$font-accent;
   font-size: 24px;
   line-height: 24px;
   text-align: center;
-  color: variables.$base-strong;
 
   &--summary-state {
     font-size: 14px;

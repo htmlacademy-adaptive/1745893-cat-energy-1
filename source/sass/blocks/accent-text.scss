@@ -1,0 +1,10 @@
+@use "./variables.scss";
+
+.accent-text {
+  font-family: variables.$font-accent;
+  color: variables.$base-strong;
+
+  &--inverse {
+    color: variables.$base-weak;
+  }
+}

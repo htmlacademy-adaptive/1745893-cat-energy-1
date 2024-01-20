@@ -1,15 +1,14 @@
 @use "../variables.scss";
 
 .site-navigation {
-  margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .site-navigation__link {
   display: block; //Задал сразу, чтобы не возвращаться к этой теме
-  padding: 22px;
-  font-family: "Oswald", sans-serif;
+  padding-block: 22px;
+  font-family: variables.$font-accent;
   font-size: 20px;
   line-height: 20px;
   text-align: center;
