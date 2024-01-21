@@ -1,8 +1,8 @@
 @use "./variables.scss";
 
-@mixin accent-text($uppercase: false) {
+@mixin accent-text($color: variables.$base-strong, $uppercase: false) {
   font-family: variables.$font-accent;
-  color: variables.$base-strong;
+  color: $color;
 
   @if $uppercase {
     text-transform: uppercase;

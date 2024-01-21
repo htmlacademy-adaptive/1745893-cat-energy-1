@@ -1,4 +1,4 @@
-@use "../variables.scss";
+@use "../mixins.scss";
 
 .overview {
   padding-block: 25px;
@@ -6,11 +6,9 @@
 }
 
 .overview__caption {
-  font-family: variables.$font-accent;
   font-size: 16px;
   line-height: 20px;
-  text-transform: uppercase;
-  color: #111111;
+  @include mixins.accent-text($color: #111111, $uppercase: true);
 }
 
 .overview__text {

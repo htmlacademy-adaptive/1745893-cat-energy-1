@@ -6,7 +6,7 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
-  @include mixins.accent-text($uppercase: false);
+  @include mixins.accent-text();
 }
 
 .additional-products__offer {

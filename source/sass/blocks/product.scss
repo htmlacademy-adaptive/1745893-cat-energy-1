@@ -1,12 +1,10 @@
-@use "./variables.scss";
+@use "../mixins.scss";
 
 .product__title {
-  font-family: variables.$font-accent;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
-  text-transform: uppercase;
-  color: #222222;
+  @include mixins.accent-text($color: #222222, $uppercase: true);
 }
 
 .product--additional .product__title {

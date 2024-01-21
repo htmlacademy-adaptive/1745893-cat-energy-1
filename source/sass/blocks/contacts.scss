@@ -1,12 +1,10 @@
-@use "../variables.scss";
+@use "../mixins.scss";
 
 .contacts__invitation {
-  font-family: variables.$font-accent;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
-  text-transform: uppercase;
-  color: #111111;
+  @include mixins.accent-text($color: #111111, $uppercase: true);
 }
 
 .contacts__address {
