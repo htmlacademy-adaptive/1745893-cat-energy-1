@@ -10,6 +10,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
+
   @include mixins.accent-text($color: #111111, $uppercase: true);
 }
 
