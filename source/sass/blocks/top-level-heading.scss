@@ -1,0 +1,9 @@
+@use "../variables.scss";
+@use "../mixins.scss";
+
+.top-level-heading {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  @include mixins.accent-text($uppercase: false);
+}

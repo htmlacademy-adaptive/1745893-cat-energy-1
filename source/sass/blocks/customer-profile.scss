@@ -1,28 +1,38 @@
 @use "./variables.scss";
 
+.customer-profile__group {
+  font-family: variables.$font-accent;
+  border: none;
+}
+
 .customer-profile__title {
   font-size: 24px;
   line-height: 26px;
+  color: variables.$base-strong;
 }
 
 .customer-profile__label {
-  font-family: variables.$font-accent;
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
+  color: variables.$faint-strong;
 }
 
 .customer-profile__input {
-  font-family: variables.$font-accent;
+  font-family: inherit;
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
+  color: inherit;
+}
+
+.customer-profile__submit {
+  border: none;
 }
 
 .customer-profile__footnote {
   font-size: 14px;
   line-height: 16px;
   text-align: center;
-  text-transform: uppercase;
   color: variables.$base-strong;
 }

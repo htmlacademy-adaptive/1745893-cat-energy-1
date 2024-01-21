@@ -1,11 +1,12 @@
 @use "../variables.scss";
+@use "../mixins.scss";
 
 .additional-products__title {
   margin-top: 0;
-  margin-bottom: 35px;
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
+  @include mixins.accent-text($uppercase: false);
 }
 
 .additional-products__offer {
