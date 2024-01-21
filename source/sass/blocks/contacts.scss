@@ -1,4 +1,10 @@
+@use "../variables.scss";
 @use "../mixins.scss";
+
+.contacts__content-wrapper {
+  padding: 26px 20px;
+  background-color: variables.$base-weak;
+}
 
 .contacts__invitation {
   font-size: 16px;

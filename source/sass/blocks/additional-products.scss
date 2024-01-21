@@ -1,6 +1,11 @@
 @use "../variables.scss";
 @use "../mixins.scss";
 
+.additional-products {
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+
 .additional-products__title {
   margin-top: 0;
   font-size: 24px;
