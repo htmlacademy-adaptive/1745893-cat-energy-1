@@ -1,0 +1,20 @@
+@use "../variables.scss";
+@use "../mixins.scss";
+
+.contacts__content-wrapper {
+  padding: 26px 20px;
+  background-color: variables.$base-weak;
+}
+
+.contacts__invitation {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+
+  @include mixins.accent-text($color: #111111, $uppercase: true);
+}
+
+.contacts__address {
+  font-style: normal;
+  line-height: 20px;
+}

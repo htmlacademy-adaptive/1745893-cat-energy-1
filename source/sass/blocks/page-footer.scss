@@ -1,0 +1,9 @@
+@use "../variables.scss";
+
+.page-footer {
+  background-color: variables.$faint-weak;
+}
+
+.page-footer__inner {
+  padding: 40px 20px;
+}

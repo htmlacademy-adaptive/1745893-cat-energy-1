@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html class="page" lang="ru">
+<html lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Подбор программы питания для вашего кота</title>
+    <link href="./css/style.css" rel="stylesheet">
   </head>
-  <body class="page__body">
-    <header class="main-header">
-      <a class="main-header__logo" href="./index.html">
+  <body class="page">
+    <header class="page__header page-header container">
+      <a class="page-header__logo" href="./index.html">
         <img src="./img/content/common/header-logo-pic.svg" width="33" height="38" alt="Логотип интернет-магазина Кэт энерджи.">
         <img src="./img/content/common/header-logo-text.svg" width="101" height="18" alt="CAT ENERGY.">
       </a>
-      <nav class="main-header__nav main-nav">
+      <nav class="page-header__nav main-nav">
         <button class="main-nav__toggle nav-menu-toggle" type="button">
           <span class="visually-hidden">Открыть меню.</span>
         </button>
@@ -27,12 +28,11 @@
         </ul>
       </nav>
     </header>
-    <main class="main-container">
-      <h1 class="page__title main-title">Подбор программы</h1>
-      <section class="client-survey">
-        <h2 class="visually-hidden">Анкета клиента.</h2>
-        <p class="client-survey__intro">Заполните анкету, и мы подберем программу питания для вашего кота</p>
-        <form class="client-survey__form customer-profile" action="https://echo.htmlacademy.ru/"   method="post">
+    <main class="page__main page-main">
+      <section class="program-selection">
+        <h1 class="program-selection__title top-level-heading">Подбор программы</h1>
+        <p class="program-selection__intro">Заполните анкету, и мы подберем программу питания для вашего кота</p>
+        <form class="program-selection__form customer-profile" action="https://echo.htmlacademy.ru/" method="post">
           <fieldset class="customer-profile__group">
             <legend class="visually-hidden">Данные кота.</legend>
             <label class="customer-profile__label">
@@ -71,7 +71,7 @@
             </label>
             <label class="customer-profile__label">
               Телефон:*
-              <input class="customer-profile__input input" type="tel" name="client-tel" placeholder="8   (960) 900-60-90" required>
+              <input class="customer-profile__input input" type="tel" name="client-tel" placeholder="8 (960) 900-60-90" required>
             </label>
           </fieldset>
           <div class="customer-profile__group">
@@ -97,13 +97,13 @@
               Витамины
             </label>
           </fieldset>
-          <button class="customer-profile__submit button button--primary" type="submit">Отправить   заявку</button>
+          <button class="customer-profile__submit button button--primary" type="submit">Отправить заявку</button>
           <p class="customer-profile__footnote">* — Обязательные поля</p>
         </form>
       </section>
     </main>
-    <footer class="main-footer">
-      <section class="main-footer__contacts contacts">
+    <footer class="page__footer page-footer">
+      <section class="page-footer__contacts contacts">
         <h2 class="visually-hidden">Наши контакты.</h2>
         <div class="contacts__content-wrapper">
           <b class="contacts__invitation">Приглашаем к сотрудничеству дилеров!</b>
@@ -115,9 +115,9 @@
           <img src="./img/content/common/location.png" width="320" height="362" alt="Наше местоположение: Санкт-Петербург, ул. Большая Конюшенная, д. 19/8.">
         </div>
       </section>
-      <div class="main-footer__inner">
+      <div class="page-footer__inner">
         <img src="./img/content/common/footer-logo.svg" width="128" height="24" alt="CAT ENERGY.">
-        <ul class="main-footer__social social">
+        <ul class="page-footer__social social">
           <li class="social__item">
             <a class="social__link" href="#" target="_blank">
               <span class="visually-hidden">Наш аккаунт Vkontakte.</span>
@@ -134,7 +134,7 @@
             </a>
           </li>
         </ul>
-        <a class="main-footer__academy-logo academy-logo" href="https://htmlacademy.ru/intensive/adaptive" target="_blank">
+        <a class="page-footer__academy-logo academy-logo" href="https://htmlacademy.ru/intensive/adaptive" target="_blank">
           HTML Academy
           <svg class="academy-logo__icon-box" width="27" height="34" viewBox="0 0 27 34" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="HTML-Academy: онлайн‑курс
           HTML и CSS «Адаптивная вёрстка и автоматизация».">

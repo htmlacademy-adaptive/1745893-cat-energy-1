@@ -1,0 +1,29 @@
+@use "../variables.scss";
+@use "../mixins.scss";
+
+.product {
+  background-color: variables.$base-weak;
+}
+
+.product__title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+
+  @include mixins.accent-text($color: #222222, $uppercase: true);
+}
+
+.product--additional .product__title {
+  line-height: 16px;
+}
+
+.product__info {
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.product--additional .product__info {
+  font-size: 14px;
+  line-height: 14px;
+}

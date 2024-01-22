@@ -1,0 +1,14 @@
+@use "../mixins.scss";
+
+.site-navigation {
+  padding: 0;
+  list-style: none;
+}
+
+.site-navigation__link {
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+
+  @include mixins.accent-text($uppercase: true);
+}

@@ -1,0 +1,14 @@
+@use "../mixins.scss";
+
+.program-selection {
+  padding-top: 27px;
+  padding-bottom: 32px;
+}
+
+.program-selection__title {
+  margin-top: 0;
+}
+
+.program-selection__intro {
+  @include mixins.accent-text($uppercase: true);
+}

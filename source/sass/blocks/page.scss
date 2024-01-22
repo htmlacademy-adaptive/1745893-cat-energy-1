@@ -1,0 +1,13 @@
+@use "../variables.scss";
+
+.page {
+  font-family: variables.$font-stack;
+  font-size: 14px;
+  line-height: 18px;
+  color: variables.$faint-strong;
+  background-color: variables.$base-weak;
+}
+
+.page__title {
+  margin-top: 0;
+}
