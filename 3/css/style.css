@@ -1,0 +1,371 @@
+@font-face {
+  font-family: "Lato";
+  src: local("Lato Regular"), local("Lato-Regular"), url("../../fonts/lato/Lato-Regular.woff2") format("woff2"), url("../../fonts/lato/Lato-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Oswald";
+  src: local("Oswald Regular"), local("Oswald-Regular"), local("oswaldregular"), url("../../fonts/oswald/oswaldregular.woff2") format("woff2"), url("../../fonts/oswald/oswaldregular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Oswald";
+  src: local("Oswald Medium"), local("Oswald-Medium"), local("oswaldmedium"), url("../../fonts/oswald/oswaldmedium.woff2") format("woff2"), url("../../fonts/oswald/oswaldmedium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.page {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+  background-color: #ffffff;
+}
+
+.page__title {
+  margin-top: 0;
+}
+
+.container {
+  padding-inline: 20px;
+}
+
+.top-level-heading {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  font-family: "Oswald", sans-serif;
+  color: #000000;
+}
+
+.button {
+  padding: 10px 20px;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.button--primary {
+  color: #ffffff;
+  background-color: #68b738;
+}
+.button--secondary {
+  color: #444444;
+  background-color: #f2f2f2;
+}
+
+.page-header {
+  padding-block: 14px;
+}
+
+.main-nav__list {
+  margin: 0;
+}
+
+.site-navigation {
+  padding: 0;
+  list-style: none;
+}
+
+.site-navigation__link {
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.promo {
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+  background-image: url("../../img/covering-bg/promo-cat.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.promo__inner {
+  padding-top: 28px;
+  padding-bottom: 20px;
+}
+
+.promo__caption {
+  margin-top: 0;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.promo__slogan {
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.power-lines__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.power-line {
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.power-line__title {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 37px;
+  font-family: "Oswald", sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.power-line__link {
+  font-size: 16px;
+  line-height: 16px;
+  font-family: "Oswald", sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.features {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.features__title {
+  margin-top: 0;
+}
+
+.features__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.result {
+  padding-top: 25px;
+  padding-bottom: 40px;
+  background-color: #eaeaea;
+}
+
+.result__title {
+  margin-top: 0;
+}
+
+.stats {
+  text-align: center;
+}
+
+.stats__description {
+  font-size: 12px;
+  line-height: 12px;
+}
+.stats__description--summary {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Oswald", sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.stats__value {
+  font-size: 24px;
+  line-height: 24px;
+  font-family: "Oswald", sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+}
+.stats__value--summary {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.product {
+  background-color: #ffffff;
+}
+
+.product__title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Oswald", sans-serif;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+.product--additional .product__title {
+  line-height: 16px;
+}
+
+.product__info {
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.product--additional .product__info {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.overview {
+  padding-block: 25px;
+  text-align: center;
+}
+
+.overview__caption {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Oswald", sans-serif;
+  color: #111111;
+  text-transform: uppercase;
+}
+
+.overview__text {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.additional-products {
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+
+.additional-products__title {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: "Oswald", sans-serif;
+  color: #000000;
+}
+
+.additional-products__offer {
+  padding-top: 60px;
+  padding-bottom: 45px;
+  color: #ffffff;
+  background-image: url("../../img/covering-bg/catalog-special-offer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.additional-products__offer-text {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.program-selection {
+  padding-top: 27px;
+  padding-bottom: 32px;
+}
+
+.program-selection__title {
+  margin-top: 0;
+}
+
+.program-selection__intro {
+  font-family: "Oswald", sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.customer-profile__group {
+  font-family: "Oswald", sans-serif;
+  border: none;
+}
+
+.customer-profile__title {
+  font-size: 24px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.customer-profile__label {
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+}
+
+.customer-profile__input {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+.customer-profile__submit {
+  border: none;
+}
+
+.customer-profile__footnote {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+}
+
+.page-footer {
+  background-color: #f2f2f2;
+}
+
+.page-footer__inner {
+  padding: 40px 20px;
+}
+
+.contacts__content-wrapper {
+  padding: 26px 20px;
+  background-color: #ffffff;
+}
+
+.contacts__invitation {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Oswald", sans-serif;
+  color: #111111;
+  text-transform: uppercase;
+}
+
+.contacts__address {
+  font-style: normal;
+  line-height: 20px;
+}
+/*# sourceMappingURL=style.css.map */
